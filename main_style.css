@@ -1,0 +1,226 @@
+#main {
+    position: relative;
+    display: flex;
+    font-family: 'Motiva Sans', sans-serif;
+}
+
+#left-side {
+    width: 180px;
+    margin-left: 230px;
+}
+
+#gift-card-promo a{
+    text-decoration: none;
+}
+
+#gift-card-promo img{
+    width: 85%;
+    padding-top: 25px;
+}
+
+#whiter{
+    color:#a4b3c4;
+    margin-bottom: 25px;
+}
+
+#title-steamc{
+    color: #88bde9;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.txt-left{
+    color: #7A8B9D;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 2px 0;
+    transition: color 0.5;
+}
+
+.title-left{
+    color:#536f86;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.left-section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#title-steamc:hover{
+    color: azure;
+}
+
+.left-section .txt-left:hover{
+    color: #45abff;
+    cursor: pointer;
+}
+
+#recent-games{
+    background: radial-gradient(circle at 0%, rgba(83, 111, 134, 0) 20%, rgba(83, 111, 134, 0.25) 100%);
+    padding: 15px 0;
+}
+
+
+/*------------------------------------------*/
+
+
+#center-side {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 940px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*------------------------------------------*/
+
+#shopping-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    margin-top: 5px;
+}
+
+#wrap-shopping{
+    background-color: #5c7e10;
+    padding: 2px 22px 3px 22px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart-btn{
+    padding: 0;
+    margin: 0;
+    background-color:transparent;
+    border: 0;
+    cursor: inherit;
+    color: azure;
+    font-family: "Motiva Sans", sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+    top: 3px;
+}
+
+#shopping-img{
+    margin-right: 5px;
+    width: 13px;
+    height: 13px;
+}
+
+/*--------------------------------------*/
+
+#main-navbar{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(59,100,145);
+    background: linear-gradient(94deg, rgba(59,100,145,1) 0%, rgba(26,55,124,1) 100%);
+    height:30px;
+    padding: 1px 0;
+}
+
+#main-navbar-options{
+    cursor: pointer;
+    display: flex;
+    width: auto;
+}
+
+.main-navbar-btn{
+    border: 0;
+    font-family: "Motiva Sans", sans-serif;
+    font-weight: bold;
+    background-color: transparent;	
+    color: azure;
+    cursor: inherit;
+    padding-top: 4px;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 12px;
+    height: 30px;
+    text-align: center;
+}
+
+.main-navbar-btn:hover{
+    background: rgb(59,100,145);
+    background: radial-gradient(circle at 0%, rgba(47, 206, 255, 0.363) 30%, rgba(62, 159, 238, 0.1) 100%);
+}
+
+#search-container{
+    display: flex;
+    justify-self: flex-end;
+    height: 25px;
+}
+
+#search-input{
+    background-color: #316282;
+    outline: none;
+    border: 0;
+    color: azure;
+    font-weight: normal;
+    font-family: "motiva sans", sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-top: 4px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+#search-container:hover{
+    border: 1px solid #4c95c9;
+}
+
+#search-input::placeholder{
+    color: #274162;
+    font-family: "motiva sans", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#search-btn{
+    border: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url("https://store.akamai.steamstatic.com/public/images/v6/search_icon_btn.png");
+    background-size:contain;
+    cursor: pointer;
+}
+
+#search-btn:hover{
+    background-color: #48acf3;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+    background: #1b2838;
+    overflow: visible;
+    z-index: 12;
+}
+  
+  
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #434953;
+    border-radius: 10px;
+    width: 7px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    z-index: 12;
+    margin: 4px;
+}
+
+::-webkit-scrollbar-corner{
+    background: #202020;
+}

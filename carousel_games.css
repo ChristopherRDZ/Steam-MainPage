@@ -1,0 +1,154 @@
+#destacados{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    height: 435px;
+}
+
+#destacados h3{
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: azure;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#wrap-games{
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.arrow{
+    position: absolute;
+    height: 110px;
+    width: 55px;
+    cursor: pointer;
+    font-family: "Motiva Sans", sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    border: 0;
+    color: azure;
+}
+
+#arrow-left{
+    position: absolute;
+    left: -56px;
+    background: linear-gradient(94deg, #12212ec2 0%, #172f421e 100%);
+}
+
+#arrow-right{
+    position: absolute;
+    left: 937px;
+    background: linear-gradient(94deg, #172f421e 0%, #12212ec2 100%);
+}
+
+#games{
+    display: flex;
+    width: 940px;
+    height: 360px;
+}
+
+#main-img-destacado{
+    width: 560px;
+    height: 360px;
+    box-shadow: 0 0 15px black;
+    z-index:1;
+}
+
+#info-destacados{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 360px;
+    background-color: #0f1b27;
+    box-shadow: 0 0 10px black;
+
+}
+
+#info-destacados p{
+    font-family: "Motiva Sans", sans-serif;
+    font-weight: normal;
+    color: azure;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+#title-destacado{
+    font-size: 24px; /*21 el otro*/
+    margin-top: 20px;
+}
+
+#status-destacado{
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+#game-imgs-destacado{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 380px;
+    margin-top: 20px;
+    height: 150px;
+}
+
+.img-gd{
+    margin-right: 7px;
+    margin-bottom: 7px;
+    width: 47%;
+    height: 47%;
+    background-size: cover;
+    opacity: 0.5;
+    transition: background-image 0.5s;
+    object-fit: contain;
+}
+
+.img-gd:hover{
+    opacity: 1;
+}
+
+#tags-destacado{
+    background-color: #37414c;
+    font-size: 11px;
+    padding: 3px 6px 1px 6px;
+    font-weight: normal;
+}
+
+#precio-destacado{
+    font-size: 11px;
+    margin-top: 55px;
+}
+
+#wrap-btns-carousel{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-carousel{
+    width: 15px;
+    height: 8px;
+    border-radius: 2px;
+    border: 0;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+    background-color: #4d657b;
+    cursor: pointer;
+}
+
+.btn-carousel:hover{
+    background-color: #879ebe;
+}
+
+#main-img-destacado {
+    background-size: 560px 360px;
+    transition: background-image 0.5s;
+}

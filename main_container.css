@@ -1,0 +1,167 @@
+#second-section{
+    background-color: #1b2838;
+    box-shadow: 0px 0px 10px 0px #000;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+#discounts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#promo-launcher{
+    background-image: url('images/promo_launcher.jpg');
+    background-size: contain;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#discounts h3{
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: azure;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#carousel-discounts{
+    height: 390px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 11px;
+    row-gap: 15px;
+}
+
+#wrap-btns-discounts{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.wide-img{
+    width: 306px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.wide-img > .wrap-info-discount{
+    height: 43px;
+    background-image: url("https://store.akamai.steamstatic.com/public/images/v6/home/background_spotlight.jpg");
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wide-img > img{
+    width: 100%;
+    height: 143px;
+    box-shadow: 0px 0px 8px #000000;
+}
+
+.tall-img{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px #000000;
+    cursor: pointer;
+}
+
+.tall-img > img{
+    width: 100%;
+    height: 260px;
+}
+
+.tall-img > .wrap-info-discount{
+    height: 130px;
+    background-image: url("https://store.akamai.steamstatic.com/public/images/v6/home/background_spotlight.jpg");
+    padding-left: 15px;
+}
+
+.title-discount{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Motiva Sans", sans-serif;
+    color: azure;
+}
+
+.decription-discount{
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: "Motiva Sans", sans-serif;
+    color: #acdbf5;
+}
+
+.tall-img .wrap-price-discount{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: fit-content;
+    height: 34px;
+}
+
+.wide-img .wrap-price-discount{
+    display: flex;
+    margin-top: 5px;
+    width: fit-content;
+    height: 34px;
+}
+
+.porcentage{
+    height: inherit;
+    color: #BEEE11;
+    background-color: #4c6b22;
+    font-family: "Motiva Sans", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.prices-discount{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #344654;
+    padding: 0 6px;
+    position: relative;
+}
+
+.old-price{
+    font-size: 11px;
+    font-family: "Motiva Sans", sans-serif;
+    color: #738895;
+    text-decoration: line-through;
+    position: relative;
+    top: 3px;
+}
+
+.new-price{
+    font-size: 15px;
+    font-family: "Motiva Sans", sans-serif;
+    color: #91d119;
+}
+
+#arrow-left-discount{
+    position: absolute;
+    left: -56px;
+    background: linear-gradient(94deg, #12212ec2 0%, #172f421e 100%);
+}
+
+#arrow-rigth-discount{
+    position: absolute;
+    left: 937px;
+    background: linear-gradient(94deg, #172f421e 0%, #12212ec2 100%);
+}

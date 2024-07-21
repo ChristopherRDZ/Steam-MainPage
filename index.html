@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos a Steam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="carousel_games.css">
+    <link rel="stylesheet" href="main_container.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="container-navbar">
+            <div id="menu">
+                <img id="steam-logo" src="images/logo_steam.svg" alt="Logo de Steam">
+                <ul id="menu-links">
+                    <li><a href="https://store.steampowered.com/?snr=1_4_4__global-header" target="_blank" id="tienda-menu">TIENDA</a></li>
+                    <li><a href="https://steamcommunity.com/" target="_blank" class="menu-a">COMUNIDAD</a></li>
+                    <li><a href="https://store.steampowered.com/about/" target="_blank" class="menu-a">ACERCA DE</a></li>
+                    <li><a href="https://help.steampowered.com/es-419/" target="_blank" class="menu-a">SOPORTE</a></li>
+                </ul>
+            </div>
+            <div id="options">
+                <button id="instalarSteam-btn">Instalar Steam</button>
+                <button class="btn-options">iniciar sesión</button>
+                <p></p>
+                <button class="btn-options">idioma <span id="triangle">▼</span></button>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="left-side">
+            <div id="gift-card-promo" class="left-section">
+                <a href="https://store.steampowered.com/digitalgiftcards/" target="_blank">
+                <img src="images/steamcards.png" alt="Imagen de Steam Cards">
+                <p id="title-steamc">TARJETAS DE REGALO DE STEAM</p>
+                <p class="txt-left" id="whiter">Regala diversión</p>
+                </a>
+            </div>
+            <div class="left-section" id="recent-games">
+                <p class="title-left">VISTO RECIENTEMENTE</p>
+                <p class="txt-left">Black Myth: Wukong</p>
+            </div>
+            <div class="left-section">
+                <p class="title-left">RECOMENDADOS</p>
+                <p class="txt-left">Amigos</p>
+                <p class="txt-left">Mentores</p>
+                <p class="txt-left">Etiquetas</p>
+            </div>
+            <div class="left-section">
+                <p class="title-left">EXPLORAR CATEGORÍAS</p>
+                <p class="txt-left">Lo más vendido</p>
+                <p class="txt-left">Novedades</p>
+                <p class="txt-left">Próximamente</p>
+                <p class="txt-left">Promociones</p>
+                <p class="txt-left">Títulos de RV</p>
+                <p class="txt-left">Compatibles con controles</p>
+                <p class="txt-left">Perfecto para Deck</p>
+            </div>
+            <div class="left-section">
+                <p class="title-left">EXPLORAR POR GÉNERO</p>
+                <p class="txt-left">Free to Play</p>
+                <p class="txt-left">Acceso anticipado</p>
+                <p class="txt-left">Acción</p>
+                <p class="txt-left">Aventura</p>
+                <p class="txt-left">Carreras</p>
+                <p class="txt-left">Casuales</p>
+                <p class="txt-left">Deportes</p>
+                <p class="txt-left">Estrategia</p>
+                <p class="txt-left">Indie</p>
+                <p class="txt-left">Multijugador masivo</p>
+                <p class="txt-left">Rol</p>
+                <p class="txt-left">Simuladores</p>
+            </div>
+        </div>
+        <div id="center-side">
+            <div id="shopping-container">
+                <div id="wrap-shopping">
+                    <img id="shopping-img" src="images/carro.png" alt="Carrito de compras">
+                    <button id="cart-btn">Carrito (1)</button>
+                </div>
+            </div>
+            <div id="main-navbar">
+                <div id="main-navbar-options">
+                    <button class="main-navbar-btn">Tu tienda</button>
+                    <button class="main-navbar-btn">Nuevo y destacable</button>
+                    <button class="main-navbar-btn">Categorías</button>
+                    <button class="main-navbar-btn">Tienda depuntos</button>
+                    <button class="main-navbar-btn">Noticias</button>
+                    <button class="main-navbar-btn">Laboratorios</button>
+                </div>
+                <div id="search-container">
+                    <input type="text" id="search-input" placeholder="buscar">
+                    <div id="search-btn"></div>
+                </div>
+            </div>
+            <div id="main-container">
+                <div id="destacados">
+                    <h3>DESTACADOS Y RECOMENDADOS</h3>
+                    <div id="wrap-games">
+                        <button id="arrow-left" class="arrow">&lt</button>
+                        <div id = "games">
+                            <div id="main-img-destacado"></div>
+                            <div id="info-destacados">
+                                <p id="title-destacado">ELDEN RING</p>
+                                <div id="game-imgs-destacado">
+                                    <div id="game-imgs-1" class="img-gd"></div>
+                                    <div id="game-imgs-2" class="img-gd"></div>
+                                    <div id="game-imgs-3" class="img-gd"></div>
+                                    <div id="game-imgs-4" class="img-gd"></div>
+                                </div>
+                                <p id="status-destacado">Ya disponible</p>
+                                <p id="tags-destacado">Lo más vendido</p>
+                                <p id="precio-destacado">$59.99</p>
+                            </div>
+                        </div>
+                        <button id="arrow-right" class="arrow">&gt</button>
+                    </div>
+                    <div id="wrap-btns-carousel">
+                    </div>
+                </div>
+                <div id="second-section">
+                    <a href="https://store.steampowered.com/category/fighting?snr=1_4_4__promo-takeunder" target="_blank"><div id="promo-launcher"></div></a>
+                    <div id="discounts">
+                        <button class="arrow" id="arrow-left-discount">&lt</button>
+                        <h3>OFERTAS ESPECIALES</h3>
+                        <div id="carousel-discounts"></div>
+                        <button class="arrow" id="arrow-rigth-discount">&gt</button>
+                        <div id="wrap-btns-discounts"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
